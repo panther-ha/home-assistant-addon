@@ -10,7 +10,7 @@ host_network: true
 ingress: true
 ingress_port: 8689
 panel_icon: mdi:shield-link-variant-outline
-#image: "ghcr.io/panther-ha/{arch}-panther-link"
+image: "ghcr.io/panther-ha/{arch}-panther-link"
 map:
   - type: addon_config
     read_only: false
