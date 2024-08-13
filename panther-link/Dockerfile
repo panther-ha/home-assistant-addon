@@ -1,8 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# Copy data for add-on
-COPY run.sh /
-RUN chmod a+x /run.sh
+ARG BUILD_ARCH
+COPY "bin/PantherLinkHA${BUILD_ARCH}" /PantherLinkHA
+RUN chmod +x /PantherLinkHA
 
-CMD [ "/run.sh" ]
+CMD ["/PantherLinkHA"]
