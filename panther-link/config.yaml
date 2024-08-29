@@ -1,6 +1,6 @@
 name: "Panther Link"
 description: "Data tunnel"
-version: "1.0.4"
+version: "1.0.5"
 slug: "panther-link"
 init: false
 arch:
