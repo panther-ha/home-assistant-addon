@@ -1,6 +1,6 @@
 name: "Panther Link"
-description: "Data tunnel"
-version: "1.0.8"
+description: "A secure, encrypted data tunnel."
+version: "1.0.10"
 slug: "panther-link"
 init: false
 arch:
@@ -14,3 +14,7 @@ image: "ghcr.io/panther-ha/{arch}-panther-link"
 map:
   - type: addon_config
     read_only: false
+options:
+  debug: false
+schema:
+  debug: bool
