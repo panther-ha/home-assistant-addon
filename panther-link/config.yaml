@@ -1,5 +1,5 @@
 name: "Panther Link"
-description: "A secure, encrypted data tunnel."
+description: "A secure, encrypted data tunnel"
 version: "1.0.12"
 slug: "panther-link"
 init: false
