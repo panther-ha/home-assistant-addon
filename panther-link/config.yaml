@@ -1,6 +1,6 @@
 name: "Panther Link"
 description: "A secure, encrypted data tunnel"
-version: "1.0.14"
+version: "1.0.15"
 slug: "panther-link"
 init: false
 arch:
